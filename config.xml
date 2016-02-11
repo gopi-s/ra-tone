@@ -2,7 +2,7 @@
 <widget id="com.gopis.ratone" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ra-tone</name>
     <description>ra-tone is a ringtone App, which allows user to download or set ringtone through the app.</description>
-    <author email="contact@technologyspices.com" href="http://technologyspices.com/">Technology Spices</author>
+    <author email="er.gopiselvam@gmail.com" href="www.dreamguys.co.in">Gopi ST</author>
 
     <preference name="phonegap-version" value="3.5.0" />
     <!-- all: current version of PhoneGap -->
