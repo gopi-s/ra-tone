@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="com.gopis.ratone" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>ra-tone</name>
+    <description>ra-tone is a ringtone App, which allows user to download or set ringtone through the app.</description>
+    <author email="contact@technologyspices.com" href="http://technologyspices.com/">Technology Spices</author>
+
+    <preference name="phonegap-version" value="3.5.0" />
+    <!-- all: current version of PhoneGap -->
+    <preference name="orientation" value="portrait" />
+    <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device" value="universal" />
+    <!-- all: possible values handset, tablet, or universal -->
+    <preference name="fullscreen" value="true" />
+    <!-- all: hides the status bar at the top of the screen -->
+    <preference name="webviewbounce" value="false" />
+    <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+    <preference name="prerendered-icon" value="true" />
+    <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
+    <preference name="stay-in-webview" value="false" />
+    <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
+    <preference name="detect-data-types" value="true" />
+    <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
+    <preference name="show-splash-screen-spinner" value="true" />
+    <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+    <preference name="auto-hide-splash-screen" value="true" />
+    <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
+    <preference name="disable-cursor" value="false" />
+    <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
+    <preference name="android-minSdkVersion" value="7" />
+    <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="com.hiraqui.ringtone" source="plugins.cordova.io" />
+    <gap:plugin name="io.github.pwlin.cordova.plugins.pdialog"/>
+    <gap:plugin name="com.vliesaputra.deviceinformation"/>
+
+    
+
+    <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" width="36" height="36" />
+    <icon gap:density="mdpi" gap:platform="android" src="res/icon/android/icon-48-mdpi.png" width="48" height="48" />
+    <icon gap:density="hdpi" gap:platform="android" src="res/icon/android/icon-72-hdpi.png" width="72" height="72" />
+    <icon gap:density="xhdpi" gap:platform="android" src="res/icon/android/icon-96-xhdpi.png" width="96" height="96" />
+
+    <gap:splash gap:density="ldpi" gap:platform="android" src="res/screen/android/screen-ldpi-portrait.png" />
+    <gap:splash gap:density="mdpi" gap:platform="android" src="res/screen/android/screen-mdpi-portrait.png" />
+    <gap:splash gap:density="hdpi" gap:platform="android" src="res/screen/android/screen-hdpi-portrait.png" />
+    <gap:splash gap:density="xhdpi" gap:platform="android" src="res/screen/android/screen-xhdpi-portrait.png" />
+
+    <icon src="icon-1024.png" />
+    <access origin="*" />
+</widget>
